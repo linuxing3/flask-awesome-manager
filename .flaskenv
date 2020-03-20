@@ -1,1 +1,4 @@
 FLASK_APP=awesome-manager.py
+PORT=8000
+HOST=0.0.0.0
+SERVER_NAME=0.0.0.0:8000
