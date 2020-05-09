@@ -1,0 +1,15 @@
+image: gitpod/workspace-full
+ports:
+- port: 3000
+  onOpen: open-preview
+tasks:
+- init: >
+    python3 -m pip install --upgrade pip
+    pip install pipenv &&
+    pipenv install
+  command: >
+    export FLASK_APP=awesome-flask.py &&
+    flask run
+github:
+    prebuilds:
+        pullRequestsFromForks: true
