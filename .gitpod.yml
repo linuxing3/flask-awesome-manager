@@ -4,8 +4,10 @@ ports:
   onOpen: open-preview
 tasks:
 - init: >
-    python3 -m pip install --upgrade pip
-    pip install pipenv &&
+    pyenv install 3.7.7 &&
+    pyenv global 3.7.7 &&
+    pip3 install --upgrade pip &&
+    pip3 install pipenv &&
     pipenv install
   command: >
     export FLASK_APP=awesome-manager.py &&
