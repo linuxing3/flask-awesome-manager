@@ -11,3 +11,4 @@ tmp/
 build
 htmlcov
 frontend/node_modules
+bash.exe.stackdump
