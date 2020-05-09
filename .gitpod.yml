@@ -8,7 +8,7 @@ tasks:
     pip install pipenv &&
     pipenv install
   command: >
-    export FLASK_APP=awesome-flask.py &&
+    export FLASK_APP=awesome-manager.py &&
     flask run
 github:
     prebuilds:
