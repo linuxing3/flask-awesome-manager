@@ -7,8 +7,8 @@ verify_ssl = true
 
 [packages]
 python-dotenv = "*"
-blank = "*"
 flask-wtf = "*"
+flask = "*"
 black = "*"
 
 [requires]
